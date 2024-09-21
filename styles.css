@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+#price-display {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
