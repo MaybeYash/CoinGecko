@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crypto Price Checker</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1a202c;
+            color: #f7fafc;
+        }
+    </style>
 </head>
-<body>
-    <div class="container">
-        <h1>Crypto Price Checker</h1>
-        <input type="text" id="coin-input" placeholder="Enter coin symbol or address">
-        <button id="check-price">Check Price</button>
-        <div id="price-display"></div>
-    </div>
+<body class="flex flex-col items-center justify-center min-h-screen p-4">
+    <h1 class="text-3xl font-bold mb-4">Crypto Price Checker</h1>
+    <input id="coin-input" type="text" placeholder="Enter Coin Symbol or Address" class="p-2 mb-4 border rounded">
+    <button id="search-button" class="bg-blue-500 text-white p-2 rounded">Search</button>
+    <div id="results" class="mt-4"></div>
+
     <script src="script.js"></script>
 </body>
 </html>
