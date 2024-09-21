@@ -1,12 +1,29 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     margin: auto;
     padding: 20px;
     max-width: 600px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 #price-display {
